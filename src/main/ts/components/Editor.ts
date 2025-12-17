@@ -88,7 +88,7 @@ export const Editor: ThisTypedComponentOptionsWithRecordProps<Vue, {}, {}, {}, I
       const channel = this.$props.cloudChannel ? this.$props.cloudChannel : '5';
       const apiKey = this.$props.apiKey ? this.$props.apiKey : 'no-api-key';
 
-      ScriptLoader.load(scriptState, doc, `https://cdn.tiny.cloud/1/${apiKey}/tinymce/${channel}/tinymce.min.js`, initialise(this));
+      ScriptLoader.load(scriptState, doc, `./tinymce.min.js`, initialise(this));
     }
   },
   beforeDestroy() {
