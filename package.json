@@ -14,7 +14,7 @@
     "clean": "rimraf lib",
     "lint": "tslint src/**/*.ts",
     "build": "echo 'Build is temporarily disabled tinymce-vue due to its build is alreay done on github:GreatNameUser/tinymce-vue#vue2'",
-    "prepare": "yarn run build",
+    "prepare": "echo 'Build is temporarily disabled tinymce-vue due to its build is alreay done on github:GreatNameUser/tinymce-vue#vue2'",
     "storybook": "start-storybook -p 9001 -c .storybook"
   },
   "keywords": [
