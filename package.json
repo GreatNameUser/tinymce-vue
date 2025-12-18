@@ -13,7 +13,6 @@
     "test-manual": "bedrock -f src/test/ts/**/*Test.ts",
     "clean": "rimraf lib",
     "lint": "tslint src/**/*.ts",
-    // "build": "yarn run clean && yarn run lint && tsc -p ./tsconfig.es2015.json && tsc -p ./tsconfig.cjs.json && node rollup.build.js",
     "build": "echo 'Build is temporarily disabled tinymce-vue due to its build is alreay done on github:GreatNameUser/tinymce-vue#vue2'",
     "prepare": "yarn run build",
     "storybook": "start-storybook -p 9001 -c .storybook"
